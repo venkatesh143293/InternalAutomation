@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WF.Test.AutomationFramework</name>
+    </assembly>
+    <members>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.API.BaseRestAPIPage.InitializeAPISettings(WF.Test.AutomationFramework.Enums.EnvironmentType)">
+            <summary>
+            Initializing all UI  Settings
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.API.RestAPIClass.GetResponsePostActionParameterBody">
+            <summary>
+            Get Response for Post Action on Rest call with ParameterBody
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.API.RestAPIClass.GetResponsePostActionParameterBody(System.String,System.String,System.String)">
+            <summary>
+            Get Response for Post Action on Rest call with ParameterBody
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.API.RestAPIClass.GetResponseGetActionAuthorizationToken(System.String,System.String)">
+            <summary>
+            Get Response for Get Action  on Rest call with AuthorizationToken
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.API.RestAPIClass.GetResponseGetActionAuthorizationToken(System.String,System.String,System.String)">
+            <summary>
+            Get Response for Get Action  on Rest call with AuthorizationToken
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.BaseUIPage.NavigateSite">
+            <summary>
+            Navigate to a URL
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.BaseUIPage.InitializeSettings(WF.Test.AutomationFramework.Enums.EnvironmentType)">
+            <summary>
+            Initializing all UI  Settings
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Driver.InitBrowser">
+            Initializing Browser
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.WaitForPageLoaded(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            Waiting until the page loads
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.WaitForAjax(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            Waiting until ajax loads
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.WaitForCondition``1(``0,System.Func{``0,System.Boolean},System.Int32)">
+            Wait for condition to meet
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.FindById(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Finding element by ID
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.FindByXpath(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Finding element by Xpath
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.FindByCssSelector(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Finding element by CssSelector
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.FindByTagName(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Finding element by TagName
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.FindByLinkText(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Finding element by LinkText
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.FindByPartialLinkText(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Finding element by Partial LinkText
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.MultiObjFindByXpath(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Finding Multi object element using Xpath
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.FluentWait(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            
+            </summary>
+            <param name="driver"></param>
+            <param name="element"></param>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.DriverExtensions.WaitforElement(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="driver"></param>
+            <param name="element"></param>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.MultiObjectWebElementExtension.SetText(System.Collections.Generic.IList{OpenQA.Selenium.IWebElement},System.String,System.Int32,System.String)">
+            <summary>
+            Method to enter Text(text) in a text field (elementName) for element type as multi object
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.MultiObjectWebElementExtension.GetText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.Int32)">
+            <summary>
+            Read text from an element of element type as multi object
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.MultiObjectWebElementExtension.GetRowNumberForText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Method to get the row number where the text is present for an multi object element or table
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.MultiObjectWebElementExtension.VerifyText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.Int32,System.String)">
+             <summary>
+            Comparing text on UI with the expected on a multi object element type
+             </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.MultiObjectWebElementExtension.GetRowCount(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            <summary>
+            Getting Row Count or count of objects
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.MultiObjectWebElementExtension.Submit(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.Int32)">
+            <summary>
+            Perform submit  Operation on an element for element type as multi object
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.MultiObjectWebElementExtension.Click(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.Int32)">
+            <summary>
+            Click on an element for element type as multi object
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SetText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.String)">
+            <summary>
+            Method to enter Text(text) in a text field (elementName)
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SetText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Method to enter Text(text) in a text field 
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SetSecureText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Method to enter Text(text) in a text field 
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SetSecureText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.String)">
+            <summary>
+            Method to enter Text(text) in a text field (elementName)
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.GetText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            <summary>
+            Read text from an element
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.VerifyText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+             <summary>
+            Comparing text on UI with the expected
+             </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.VerifyText(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.String)">
+             <summary>
+            Comparing text on UI with the expected
+             </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SubmitButton(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            <summary>
+            Perform submit  Operation on an element
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SubmitButton(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Perform submit  Operation on an element
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.ClickButton(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            <summary>
+            Perform Click Operation on an element
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.ClickButton(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Perform Click Operation on an element
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.Enabled(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            <summary>
+            Return true if the object is enabled and vice versa
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.VerifyEnabled(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Verify to see if the object is enabled
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.VerifyDisabled(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Verify to see if the object is Disabled
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SelectDDL(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.String)">
+            <summary>
+            Select from a dropdown based on selection value
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SelectDDLByValue(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.Int32)">
+            <summary>
+            Select from a dropdown based on Index
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.SelectRandomDDLValue(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.Int32)">
+            <summary>
+            Select random value from the dropdown
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.GetSelectedDropDown(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            <summary>
+            Return first selected options from the dropdown as a string
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.GetSelectedListOptions(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            <summary>
+            Return all selected options from the dropdown as a list
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.Hover(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Hover over a field/element
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.HoverAndClick(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,OpenQA.Selenium.By)">
+            <summary>
+            Hover over a field/element and Click
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.AssertElementPresent(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String)">
+            <summary>
+            Assert if the element is Present
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.WaitForStalenessOfElement(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.Int32)">
+            <summary>
+            Waiting until the Staleness Of Element
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.WaitForElementPresent(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By,System.String,System.Int32)">
+            <summary>
+            Waiting for the element to be present
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.IsElementPresent(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            Private method to verify if the element is Present
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.ElementName(OpenQA.Selenium.IWebDriver,OpenQA.Selenium.By)">
+            Private method to get the elementName from element property
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.Extensions.WebElementExtension.FluentWait(OpenQA.Selenium.IWebDriver)">
+            fluent wait for element
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.UIHelper.CheckErrorsOnPage(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            Checking errors on a page
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.UIHelper.IsErrorOnPage(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            Is errors on a page, returns Boolean
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.UIHelper.SkipPrivacyAlertPage(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            Skip Privacy Alert Page
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.UIHelper.GoToURL(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Navigate to a URL provided
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.CoreLibrary.UI.UIHelper.NavigateToAllLinksInPage(OpenQA.Selenium.IWebDriver,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Navigate to all the links on client Home page 
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.CommonHelpers.GetPath">
+            Get path of this project repository
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.CommonHelpers.CreateFolderIfMissing(System.String)">
+            <summary>
+            Create a folder if Missing at location folderPath
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.ExcelHelpers.PopulateInCollection(System.String,System.String)">
+            <summary>
+            Storing all the excel values in to the in-memory collections
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.ExcelHelpers.ExcelToDataTable(System.String,System.String)">
+            Convert Excel data to a Datatable
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.ExcelHelpers.ReadData(System.Int32,System.String)">
+            <summary>
+            Reading all the data from Excelsheet
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.ExcelHelpers.GetExcelRowCount">
+            <summary>
+            Get count of rows in excel sheet
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.ExcelHelpers.excelDataAsList">
+            <summary>
+            Method to return excel data as list
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.HtmlTableHelper.ReadTable(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Reading an HTML table.
+             Implementation:   HtmlTableHelper.ReadTable(loginPage.tableWebTable);
+                               HtmlTableHelper.GetCell(1, 1);
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.HtmlTableHelper.PerformActionOnCell(System.String,System.String,System.String,System.String)">
+            <summary>
+            Perform Click on a cell in a table.
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.HtmlTableHelper.GetCell(System.String,System.Int32)">
+            <summary>
+            Get a specfic cell value if row and column number is mentioned
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.JSONHelpers.JSONSchemaValidation(System.String,System.String,System.String)">
+            <summary>
+            Verify if the JSON is in schemaJson format
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.Reporter.StartReport">
+            <summary>
+            Initializing and starting the Reporter
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.Reporter.NewTestCase(System.String,System.String)">
+            <summary>
+            Start New Test case
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.Reporter.LogInfo(System.String)">
+            <summary>
+            Log/Report Information
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.Reporter.LogPass(System.String)">
+            <summary>
+            Log/Report Pass status
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.Reporter.LogFail(System.String)">
+            <summary>
+            Log/Report Fail status
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.Reporter.LogFailWithScreenshot(System.String)">
+            <summary>
+            Log/Report Fail status along with Screenshot
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.Reporter.Flush">
+            <summary>
+            Commit report so all the reporting events are published
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.Reporter.EndReport">
+             <summary>
+            Commit report so all the reporting events are published
+             </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.StringHelpers.ConvertXMLNodeListToList(System.Xml.XmlNodeList)">
+            <summary>
+            Method to Convert XMLNodeList To List of string
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.TextCompareHelper.VerifyText(System.String,System.String,System.String)">
+            <summary>
+            Verify text and report.
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.TextCompareHelper.VerifyTextIgnoreCase(System.String,System.String,System.String)">
+             <summary>
+            Compare Text ignoring the case
+             </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.TextCompareHelper.VerifyTextContains(System.String,System.String,System.String)">
+            <summary>
+            Verify if actualTextContainsIn is in expectedText
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.WebPageHelpers.WaitForPageChange(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            Wait for page url to change
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.WebPageHelpers.VerifyPageTitle(OpenQA.Selenium.IWebDriver,System.String)">
+            <summary>
+            Verify Page Title
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.WebPageHelpers.GetTitle(OpenQA.Selenium.IWebDriver)">
+            <summary>
+            Getting Page Title
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.XMLHelpers.ReadXMLFile(System.String,System.String)">
+            <summary>
+            Read an XML file and return the value of tagName as a XmlNodeList
+            Example readXLMFile("C:\\Users\\ravi.peddi\\Downloads\\FileType2.xml","MsgId")
+            </summary>
+        </member>
+        <member name="M:WF.Test.AutomationFramework.Helpers.XMLHelpers.ReadXMLData(System.String,System.String)">
+            <summary>
+            Read an XML file and return the value of tagName as a XmlNodeList 
+            </summary>
+        </member>
+    </members>
+</doc>
